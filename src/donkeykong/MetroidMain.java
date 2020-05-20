@@ -1,4 +1,3 @@
-//Comentario de prueba
 
 package donkeykong;
 
