@@ -129,7 +129,7 @@ public class Level1 extends Level
     @Override
     public void restore(MainCharacter character)
     {
-        character.moveTo(13, 202);
+        character.moveTo(14, 202);
         character.resetJumpForce();
         character.resetPoints();
         character.animate(AnimatedSprite.RIGHT);

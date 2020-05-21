@@ -6,6 +6,7 @@ import donkeykong.sprite.*;
 import javafx.animation.AnimationTimer;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
+import javafx.scene.control.TextInputDialog;
 import javafx.scene.input.KeyCode;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
@@ -13,6 +14,7 @@ import javafx.scene.paint.Color;
 import javafx.util.Duration;
 
 import java.io.File;
+import java.util.Optional;
 
 public class GameScene extends MetroidScene
 {
@@ -63,6 +65,8 @@ public class GameScene extends MetroidScene
     @Override
     public void draw()
     {
+
+
 
         playEffect(WELCOME_SOUND);
         Timeline timeline = new Timeline(new KeyFrame(

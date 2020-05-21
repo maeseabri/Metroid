@@ -4,6 +4,7 @@ import donkeykong.MetroidMain;
 import donkeykong.level.Level1;
 import donkeykong.sprite.*;
 import javafx.animation.AnimationTimer;
+import javafx.scene.control.TextInputDialog;
 import javafx.scene.input.KeyCode;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
@@ -12,6 +13,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 
 import java.io.File;
+import java.util.Optional;
 
 public class GameOverScene extends MetroidScene
 {
@@ -56,4 +58,6 @@ public class GameOverScene extends MetroidScene
             }
         }.start();
     }
+
+
 }
